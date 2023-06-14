@@ -1,0 +1,104 @@
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    background-color: #6E3E96;
+}
+header {
+  position: relative; 
+}
+
+h1 {
+    text-align: center; 
+    text-decoration-color: floralwhite;
+}
+h2{
+    text-align: center;
+}
+/* Center align the buttons and evenly space them */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+/* Style the buttons */
+nav ul li a {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 24px;
+  text-decoration: none;
+  text-decoration-color: floralwhite;
+  background-color: #B242C1;
+  border: 1px solid #841895;
+    border-color: #841895;
+  border-radius: 4px;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+a {
+
+  color: white;
+}
+p {
+   font-size: 24px;
+  text-align: center;
+     color:#03FF50;
+}
+
+p1 {
+    font-size: 24px;
+  text-align: center;
+    padding: 5px ;
+    color:#03FF50;
+}
+
+.solo-pics,
+.group-pics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    margin-bottom: 20px;
+}
+.text-gif{
+    text-align: center;
+    font-size: 50px;
+}
+
+.solo-pics img,
+.group-pics img {
+  width: 500px;
+  height: 500px;
+  border: 1px solid #03FF50;
+    color: #03FF50;
+    border-radius: 10px;
+  margin-right: 10px;
+}
+
+
+.solo-pics img:last-child,
+.group-pics img:last-child {
+  margin-right: 0;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+.social-icon {
+    color:#03FF50;
+    transition: color 0.2s;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 50px;
+}
+
+.social-icon:hover{
+    color:#00D93E;
+}
+footer{
+    color: #03FF50;
+    text-align: center;
+}

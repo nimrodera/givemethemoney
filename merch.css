@@ -1,0 +1,103 @@
+body{
+background-color:#6E3E96;
+}
+
+h1 {
+    text-align: center; 
+    text-decoration-color: floralwhite;
+}
+/* Center align the buttons and evenly space them */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+/* Style the buttons */
+nav ul li a {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 24px;
+  text-decoration: none;
+  text-decoration-color: floralwhite;
+  background-color: #B242C1;
+  border: 1px solid #841895;
+    border-color: #841895;
+  border-radius: 4px;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+a {
+  background-color: #582C7C;
+  color: white;
+}
+
+/* Add some space below the buttons */
+nav {
+  margin-bottom: 20px;
+}
+/* Set font family and font sizes */
+body {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+h2 {
+  font-size: 28px;
+text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+    color: #03FF50;
+    
+}
+
+p {
+  font-size: 20px;
+    color: #03FF50;
+    
+}
+
+button {
+  font-size: 20px;
+    color: #03FF50;
+    text-align:center;
+    
+}
+purchase-button {
+    text-align: center;
+}
+
+
+.merch-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.merch-images img {
+  width: 500px;
+  height: 500px;
+    border: 1px solid #03FF50;
+    margin-right:10px;
+    margin-left: 10px;
+}
+
+
+section2 {
+  text-align: center;
+}
+
+
+.size-options {
+ 
+  padding: 10px;
+}
+footer{
+    text-align: center;
+    
+    
+}
